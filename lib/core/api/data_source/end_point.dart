@@ -1,7 +1,7 @@
 
 class EndPoints {
 
-  static const String baseUrl = 'https://test.techno-edu.com';
+  static const String baseUrl = 'http://kku-bus.techno-edu.com';
 
   static const login = "/api/users/login";
   static const register = "/api/users/register";

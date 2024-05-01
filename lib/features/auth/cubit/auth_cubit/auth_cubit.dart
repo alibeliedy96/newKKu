@@ -191,9 +191,10 @@ class AuthCubit extends Cubit<AuthState>  {
 
 
         cities =  r.data??[];
-        cityName=cities.firstWhere((element) => element.id==CacheHelper.getData(key: "cityId", )).name;
+
 
         emit(SuccessAllCitiesState());
+        cityName=cities.firstWhere((element) => element.id==CacheHelper.getData(key: "cityId", )).name;
       },
     );
   }

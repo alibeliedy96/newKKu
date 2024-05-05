@@ -58,14 +58,7 @@ class _TabBarMainState extends State<TabBarMain>
         const ChecklistView():
             Column(
               children: [
-                /**
-                 * git init
-                    git add README.md
-                    git commit -m "first commit"
-                    git branch -M main
-                    git remote add origin https://github.com/alibeliedy96/newKKu.git
-                    git push -u origin main
-                 */
+
                 Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
